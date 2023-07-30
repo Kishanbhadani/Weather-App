@@ -1,0 +1,114 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+nav{
+  width: 100%;
+  height: 45px;
+  background-color: rgb(73, 71, 69);
+}
+
+.nav_li {
+  list-style: none;
+  float: left;
+  padding: 5px;
+  width: 118px;
+  text-align: center;
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 6px;
+  background-color: gray;
+  margin-top: 6px;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.wheter_nav_li{
+  float: right;
+  margin-right: 40px;
+}
+
+.App_name{
+  width: 80%;
+  padding: 8px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  margin: 0px auto;
+}
+
+.home_Div{
+  width: 99%;
+  height: 400px;
+  text-align: center;
+}
+
+.home_title{
+  height: 400px;
+  margin-top: 10%;
+}
+
+.Search_Div{
+  width: 70%;
+  margin: 30px auto;
+}
+
+.inp_search{
+  width: 40%;
+  height: 20px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin: 3px;
+  background-color: gainsboro;
+}
+
+.label{
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.inp_loc{
+  width: 15%;
+  border: 1px solid gray;
+  border-radius: 4px;
+  background-color: gainsboro;
+  height: 20px;
+}
+
+.search{
+  width: 10%;
+  height: 20px;
+  color: black;
+  margin-left: 20px;
+  background-color: rgb(233, 189, 136);
+  border: 1px solid orangered;
+  border-radius: 3px;
+}
+
+.resuit_Div{
+  width: 85%;
+  margin: 10px auto;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+table{
+  margin: 10px auto;
+  width: 85%;
+  border: 1px solid black;
+}
+
+table,td,th{
+  border-collapse: collapse;
+}
+
+td, th{
+  border: 1px solid black;
+  text-align: center;
+}
